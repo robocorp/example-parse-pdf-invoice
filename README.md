@@ -27,4 +27,4 @@ services wrapped by the `RPA.DocumentAI` library.
 
 > When all the options above fail (or provide inaccurate data), it is time to employ a
 > Machine Learning model specially trained to detect and structure fields of interest
-> from the provided input file, be it a text-based or even image.
+> from the provided input file, be it text-based or even image.
