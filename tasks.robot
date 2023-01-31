@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation       Show-case multiple ways of extracting information from different
-...    kinds of PDF files (text based and scans) presenting invoice data.
+...    kinds of PDF files (text based and scans), mainly presenting invoice data.
 
 
 *** Tasks ***
