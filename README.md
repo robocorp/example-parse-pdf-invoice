@@ -3,6 +3,10 @@
 Show-case multiple ways of extracting information from different kinds of PDF files
 (text based or scans), mainly presenting invoice data.
 
+Read more on the
+[challenges](https://pypdf.readthedocs.io/en/latest/user/extract-text.html) of getting
+information out of PDF files.
+
 ## Tasks
 
 ### `Extract Text Data With RPA`
