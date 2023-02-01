@@ -9,7 +9,10 @@ dependencies:
   # Define conda-forge packages here -> https://anaconda.org/search
   # When available, prefer the conda-forge packages over pip as installations are more efficient.
   - python=3.9.13               # https://pyreadiness.org/3.9/
+  - camelot-py=0.10.1
   - pip=22.1.2                  # https://pip.pypa.io/en/stable/news/
   - pip:
       # Define pip packages here -> https://pypi.org/
-      - rpaframework==20.1.2    # https://rpaframework.org/releasenotes.html
+      # - rpaframework==21.0.0    # https://rpaframework.org/releasenotes.html
+      - https://robocorp:freeasinbeer@devpi.robocorp.cloud/ci/test/+f/2f2/cb3c2e275a4c3/rpaframework-21.0.0-py3-none-any.whl#sha256=2f2cb3c2e275a4c3c0dbcb68f2aad18d14afc41382b08a384555594225ed2ac8
+      - camelot-py[base]==0.10.1
