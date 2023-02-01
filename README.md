@@ -13,6 +13,8 @@ information out of PDF files.
 
 Extract textual data with the local help of `RPA.PDF` library.
 
+Watch demo: https://www.loom.com/share/4bc28045f45941d18d935a60e35e227a
+
 > Usually this is sufficient for most of the cases.
 
 
@@ -21,6 +23,8 @@ Extract textual data with the local help of `RPA.PDF` library.
 Extract tables with the Camelot library. (see external
 [dependency](https://pypi.org/project/camelot-py/))
 
+Watch demo: https://www.loom.com/share/87d434dad8d748ada566a8c199cbea90
+
 > This is useful for getting out nicely formatted tabular data, but comes at the cost
 > of heavier dependencies brought in the built environment.
 
@@ -28,6 +32,8 @@ Extract tables with the Camelot library. (see external
 
 Extract fields detected in both text or image-based PDFs using 3rd-party external
 services wrapped by the `RPA.DocumentAI` library.
+
+Watch demo: https://www.loom.com/share/e9753b884b6f4aa1ac0271580a0cf682
 
 > When all the options above fail (or provide inaccurate data), it is time to employ a
 > Machine Learning model specially trained to detect and structure fields of interest
