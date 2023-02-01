@@ -61,7 +61,7 @@ Extract Text Data With RPA
     ${text} =    Get Text From PDF
     Log To Console    ${text}
 
-    # Retrieve only text pars matching locator. (and its neighbours)
+    # Retrieve only text parts matching locator. (and its neighbours)
     # Test regular expressions with: https://regexr.com/
     @{matches} =    Find Text    Service    direction=down
     Log    First item under "Service": ${matches[0].neighbours}[${0}]
