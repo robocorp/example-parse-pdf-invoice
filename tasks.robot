@@ -85,7 +85,7 @@ Extract Tabular Data With Camelot
     [Documentation]    Extract tables with the Camelot library.
     ...    (see external dependency: https://pypi.org/project/camelot-py/)
 
-    # The keywords below require the extended PDF library. (`ExtendedPDF`)
+    # Keywords below require the extended PDF library. (`ExtendedPDF`)
     Camelot Table As Excel
     Camelot Table As CSV
 
