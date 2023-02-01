@@ -16,13 +16,13 @@ class ExtendedPDF(PDF):
 
         self.switch_to_pdf(source_path)
 
-        tables = camelot.read_pdf(
-            self.active_pdf_document.path, *args, **kwargs
-        )
+        tables = camelot.read_pdf(self.active_pdf_document.path, *args, **kwargs)
         return tables
 
     @keyword
-    def export_tables_to_files(self, tables, output_path, output_format="csv", **kwargs):
+    def export_tables_to_files(
+        self, tables, output_path: str, output_format: str = "csv", **kwargs
+    ):
         """Documentation: https://camelot-py.readthedocs.io/en/master/api.html?highlight=export#camelot.core.TableList.export"""
 
         # Supported formats: csv|excel|html|json|markdown|sqlite

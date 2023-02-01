@@ -13,6 +13,5 @@ dependencies:
   - pip=22.1.2                  # https://pip.pypa.io/en/stable/news/
   - pip:
       # Define pip packages here -> https://pypi.org/
-      # - rpaframework==21.0.0    # https://rpaframework.org/releasenotes.html
-      - https://robocorp:freeasinbeer@devpi.robocorp.cloud/ci/test/+f/2f2/cb3c2e275a4c3/rpaframework-21.0.0-py3-none-any.whl#sha256=2f2cb3c2e275a4c3c0dbcb68f2aad18d14afc41382b08a384555594225ed2ac8
+      - rpaframework==21.0.0    # https://rpaframework.org/releasenotes.html
       - camelot-py[base]==0.10.1
