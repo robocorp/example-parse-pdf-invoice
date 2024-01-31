@@ -2,13 +2,10 @@
 # https://github.com/robocorp/rcc/blob/master/docs/recipes.md#what-is-in-robotyaml
 
 tasks:
-  # Task names here are used when executing the bots, so renaming these is recommended.
-  Extract Text Data With RPA:
-    robotTaskName: Extract Text Data With RPA
-  Extract Tabular Data With Camelot:
-    robotTaskName: Extract Tabular Data With Camelot
-  Extract Structured Data With AI:
-    robotTaskName: Extract Structured Data With AI
+  Extract Text Data:
+    shell: python -m robocorp.tasks run -t extract_text_data
+  Extract Elements:
+    shell: python -m robocorp.tasks run -t extract_elements
 
 condaConfigFile: conda.yaml
 
