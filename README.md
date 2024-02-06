@@ -11,7 +11,7 @@ information out of PDF files.
 
 ### `Extract Text Data`
 
-Extract textual data from PDF file.
+Extract textual data from a PDF file.
 
 > Usually this is sufficient for most of the cases.
 
