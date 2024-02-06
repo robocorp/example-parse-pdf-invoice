@@ -18,4 +18,4 @@ Extract textual data from a PDF file.
 
 ### `Extract element from table in PDF`
 
-In some cases it may be easier to find the elements and it's neighbours instead of just parsing the text. In this example we find rows and columns from a table in a PDF document.
+In some cases, it may be easier to find the elements and their neighbours instead of just parsing the text. In this example we find rows and columns from a table in a PDF document.
