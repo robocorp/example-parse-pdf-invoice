@@ -23,7 +23,9 @@ def find_row(pdf_path: str, search_text: str) -> List[str]:
                 # Check if the element is at the same y-coordinate and after the the search element in the x-coordinate
                 if (ey0 == y0 and ey1 == y1 and ex0 > x0):
                     row_elements.append(element.get_text().strip())
-            return row_elements
+            # If match is found return the row elements otherwise just continue to the next page
+            if len(row_elements) > 0:
+                return row_elements
 
 def find_column(pdf_path: str, search_text: str):
     columns_elements = []
@@ -42,6 +44,8 @@ def find_column(pdf_path: str, search_text: str):
                 # Check if the element is at the same x-coordinate (give or take)
                 if (ex0 >= x0 and ex1 <= (x1 + 1) and ey0 > y0):
                     columns_elements.append(element.get_text().strip())
-            return columns_elements
+            # If match is found return the column elements otherwise just continue to the next page
+            if len(columns_elements) > 0:
+                return columns_elements
 
 

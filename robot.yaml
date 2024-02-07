@@ -4,8 +4,8 @@
 tasks:
   Extract Text Data:
     shell: python -m robocorp.tasks run -t extract_text_data
-  Extract Elements:
-    shell: python -m robocorp.tasks run -t extract_elements
+  Extract Elements From Table:
+    shell: python -m robocorp.tasks run -t extract_elements_from_table
 
 condaConfigFile: conda.yaml
 

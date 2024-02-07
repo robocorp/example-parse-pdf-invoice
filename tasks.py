@@ -49,13 +49,15 @@ def find_lines_with_email_addresses(pdf_lib: PyPDFLibrary) -> None:
 
 
 def print_values_from_row() -> None:
-    elements = find_row(PDF_INVOICE_TABLE_FILE_PATH, 'Test Item')
-    log.info(f"Elements in searched row: {elements}")
+    row = find_row(PDF_INVOICE_TABLE_FILE_PATH, 'Test Item')
+    log.info(f"Elements in searched row: {row}")
+    assert row == ['Test Item', '1 hrs', '10.00', '20', '10.00', '2.00', '12.00']
 
 
 def print_values_from_column() -> None:
     column = find_column(PDF_INVOICE_TABLE_FILE_PATH, 'Total gross')
     log.info(f"Column: {column}")
+    assert column == ['Total gross', '12.00', '414.00', '360.00', '786.00', '786.00']
 
 
 @task
