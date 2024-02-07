@@ -8,10 +8,11 @@ channels:
 dependencies:
   # Define conda-forge packages here -> https://anaconda.org/search
   # When available, prefer the conda-forge packages over pip as installations are more efficient.
-  - python=3.9.13               # https://pyreadiness.org/3.9/
-  - camelot-py=0.10.1
-  - pip=22.1.2                  # https://pip.pypa.io/en/stable/news/
+  - python=3.10.12                # https://pyreadiness.org/3.10
+  - robocorp-truststore=0.8.0     # https://pypi.org/project/robocorp-truststore/
+  - pip=23.2.1                    # https://pip.pypa.io/en/stable/news
   - pip:
       # Define pip packages here -> https://pypi.org/
-      - rpaframework==21.0.0    # https://rpaframework.org/releasenotes.html
-      - camelot-py[base]==0.10.1
+      - robocorp==1.6.1
+      - pypdf==4.0.1
+      - pdfminer.six==20231228
